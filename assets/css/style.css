@@ -1687,7 +1687,7 @@ section {
   text-align: left;
 }
 
-#footer .footer-newsletter form input[type="email"] {
+#footer .footer-newsletter form input[type="text"] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);

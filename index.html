@@ -27,7 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <link href="assets/css/main.css" rel="stylesheet">
   </head>
 
 <body>
@@ -123,37 +123,19 @@
           <div class="col-lg-6">
             <h4>Join Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <label for="ciphers">Please Select a Cipher Method: </label>
+            <select name="ciphers" id="ciphers">
+              <option value="none" selected="selected">None</option>
+              <option value="caesar">Caesar Cipher</option>
+              <option value="vignere">Vignere Cipher</option>
+            </select>
             <form>
-              <input type="text" name="plaintext" id="plaintext1"><input type="submit" value="Subscribe" id="calc1">
+              <input type="text" name="plaintext" id="plaintext">
+              <input type="submit" value="Calculate" id="calculate">
             </form>
-            <div id="output1"></div>
-            <form>
-              <input type="text" name="plaintext" id="plaintext2"><input type="submit" value="Subscribe" id="calc2">
-            </form>
-            <div id="output2"></div>
-             <form>
-              <input type="text" name="plaintext" id="plaintext3"><input type="submit" value="Subscribe" id="calc3">
-            </form>
-            <div id="output3"></div>
-            <form>
-              <input type="text" name="plaintext" id="plaintext4"><input type="submit" value="Subscribe" id="calc4">
-            </form>
-            <div id="output4"></div>
-           
-            <form>
-              <input type="text" name="plaintext" id="plaintext5"><input type="submit" value="Subscribe" id="calc5">
-            </form>
-            <div id="output5"></div>
-            <form>
-              <input type="text" name="plaintext" id="plaintext6"><input type="submit" value="Subscribe" id="calc6">
-            </form>
-            <div id="output6"></div>
-           
-           
-           
-           
-           
-             <section id="portfolio" class="portfolio">
+            <div id="output"></div>
+              
+      <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
